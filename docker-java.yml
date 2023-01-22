@@ -1,0 +1,16 @@
+---
+ - hosts: all
+   name: instaling docker
+   become: true
+   tasks: 
+   - name: Install docker.
+     package:
+       name: docker-ce
+       state: present
+
+ - hosts: all
+   name: installing java
+   become: true
+   tasks: 
+   - name: install java
+     apt: name=openjdk-11-jdk state=latest
