@@ -3,7 +3,7 @@ sudo apt install ca-certificates
 sudo apt-get install openjdk-11-jdk -y
 sudo apt-get install docker.io -y
 service docker restart  
-sudo usermod -aG docker jenkins
-sudo apt-get update  
 git init
+sudo usermod -aG docker jenkins
+sudo chmod 666 /var/run/docker.sock
 
