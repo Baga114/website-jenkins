@@ -5,4 +5,5 @@ sudo apt-get install docker.io -y
 service docker restart  
 sudo usermod -aG docker jenkins
 sudo apt-get update  
+git init
 
