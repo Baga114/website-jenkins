@@ -1,5 +1,5 @@
 [servers]
-master ansible_host=172.31.90.84
-worker1 ansible_host=172.31.92.179
-worker2 ansible_host=172.31.94.211
+master ansible_host=3.89.183.252
+worker1 ansible_host=172.31.19.116
+worker2 ansible_host=172.31.16.68
 
